@@ -12,8 +12,7 @@ export default class App extends Component {
     }    
   }
   async componentDidMount(){
-    const key = "3a3a8f43344e4b1899f132550230801"
-    const url = `http://api.weatherapi.com/v1/current.json?${key}&q=Peshawar`;
+    const url = "http://api.weatherapi.com/v1/current.json?key=3a3a8f43344e4b1899f132550230801&q=Peshawar";
     const {data} = await axios.get(url);
     this.setState({result:data})
 
