@@ -55,7 +55,7 @@ export default class App extends Component {
             <p className="geo" />
           </div>
           <div className="top-right">
-            <h1 id="weather-status">Weather / Weather Status</h1>
+            <h1 id="weather-status">Weather / Weather in Peshawar</h1>
             {
               this.state.result.current  &&
             <img className="weather-icon" src={this.state.result.current.condition.icon} />
