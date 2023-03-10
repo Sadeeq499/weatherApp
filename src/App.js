@@ -58,7 +58,7 @@ export default class App extends Component {
             <h1 id="weather-status">Weather / Weather in Thall</h1>
             {
               this.state.result.current  &&
-            <img className="weather-icon" src={this.state.result.current.condition.icon} />
+            <img className="weather-icon" alt='icon' src={this.state.result.current.condition.icon} />
             }
           </div>
           <div className="horizontal-half-divider" />
