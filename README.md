@@ -1,1 +1,2 @@
-Live: https://weather-app-zeta-rust.vercel.app/
+
+Live: https://sadeeq499.github.io/weatherApp/
